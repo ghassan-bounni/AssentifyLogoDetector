@@ -1,0 +1,40 @@
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.brand {
+  margin-left: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 20%;
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
+}
+
+.nav-links a {
+  padding: 0.5rem 1rem;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+
+.nav-links a:hover {
+  background-color: #ffc400;
+}
