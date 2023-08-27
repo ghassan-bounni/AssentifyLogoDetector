@@ -97,4 +97,4 @@ def get_images(image_id: str):
 
 
 if __name__ == "__main__":
-    app.run(debug=False, port=os.environ.get("FLASK_RUN_PORT", 5000))
+    app.run(debug=False, host="0.0.0.0", port=os.environ.get("FLASK_RUN_PORT", 5000))
